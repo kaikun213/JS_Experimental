@@ -1,0 +1,67 @@
+
+# Course list
+
+* #### COMP 3211 	Fundamentals of Artificial Intelligence 	[3 Credit(s)]  
+*Foundations underlying design of intelligent systems. Relations between logical, statistical, cognitive, biological paradigms; basic techniques for heuristic search, theorem proving, knowledge representation, adaptation; applications in vision, language, planning, expert systems.* **Exclusion(s): COMP 5211 Prerequisite(s): COMP 2011 OR COMP 2012 OR COMP 2012H** 
+
+
+* #### COMP 2021 	Unix and Script Programming 	[3 Credit(s)]  
+*Unix utilities and file structure; links and symbolic links; data processing and process control in the Unix shell; Shell programming; regular expressions; script programming in the Unix environment. Laboratory exercises are designed to give hands-on practice with software tools and to increase programmer productivity.* **Prerequisite(s): COMP 1002 OR COMP 1004 (prior to 2013-14) OR COMP 1021 OR COMP 1022P OR COMP 1022Q; OR a passing grade in HKALE Computer Studies or HKCEE Computer Studies; OR level 3 or above in HKDSE Information and Communication Technology** 
+
+* #### COMP 3071 	Honors Competitive Programming 	[2 Credit(s)]  
+*Intensive programming laboratory to equip students with creative problem solving and competitive programming skills. International programming competition-type problems will be used to motivate the study of algorithms, programming, and other topics in computer science.* **Enrollment in the course requires approval of the course instructor.** 
+
+* #### COMP 1029P 	Python Programming Bridging Course 	[1 Credit(s)]  
+*This course introduces the Python programming language. It is intended for students who already have some experience in computer programming but wish to learn how to apply those programming skills to the Python language. The course covers basic programming topics, such as variables, functions and loops, to more advanced topics. Students explore these by self-learning of course materials together with guided programming exercises. Students without the prerequisites but possess relevant programming knowledge may seek instructor's approval for enrolling in the course. Graded P or F.* **Exclusion(s): COMP 1021 Prerequisite(s): COMP 1002 OR COMP 1004 (prior to 2013-14) OR COMP 1022P OR COMP 1022Q OR ISOM 3230 OR ISOM 3320** 
+
+* #### COMP 3711 	Design and Analysis of Algorithms 	[3 Credit(s)]
+*Techniques for designing algorithms, proving their correctness, and analyzing their running times. Topics covered include: sorting, selection, heaps, balanced search trees, divide-and-conquer, greedy algorithms, dynamic programming, and graph algorithms.* **Exclusion(s): COMP 3711H Prerequisite(s): (COMP 2011 OR COMP 2012 OR COMP 2012H) AND (COMP 2711 OR COMP 2711H OR MATH 2343)** 
+
+OR ----------------------
+
+* #### COMP 3711H 	Honors Design and Analysis of Algorithms 	[4 Credit(s)]  
+*Techniques for designing algorithms, proving their correctness, and analyzing their running times. Topics covered include: sorting, selection, heaps, balanced search trees, divide-and-conquer, greedy algorithms, dynamic programming, and graph algorithms. The class will also provide an introduction to advanced techniques such as amortized analysis and the design of randomized and approximation algorithms, as well as providing exposure to more advanced algorithmic solutions to optimization problems, e.g. linear programming and network flow.* **Exclusion(s): COMP 3711 Prerequisite(s): (Grade B+ or above in COMP 2011 / COMP 2012 / COMP 2012H) AND (grade A- or above in COMP 2711 / COMP 2711H / MATH 2343)** 
+
+* #### COMP 3311 	Database Management Systems 	[3 Credit(s)]  
+*Principles of database systems; conceptual modeling and data models; logical and physical database design; query languages and query processing; database services including concurrency, crash recovery, security and integrity. Hands-on DBMS experience.* **Exclusion(s): COMP 5311, IELM 3300, ISOM 3260 Prerequisite(s): COMP 2011 OR COMP 2012 OR COMP 2012H** 
+
+* #### COMP 1029V 	Excel VBA Programming Bridging Course 	[1 Credit(s)]  
+*This course introduces the VBA programming language, in the context of Microsoft Excel. It is intended for students who already have some experience in computer programming but wish to learn how to apply those programming skills to VBA, within Excel. The course covers basic programming topics, such as variables, functions and loops, to more advanced topics. Appropriate features of the Excel program are also covered. Students explore these by self-learning of course materials together with guided programming exercises. Students without the prerequisites but possess relevant programming knowledge may seek instructor's approval for enrolling in the course. Graded P or F. **Exclusion(s): COMP 1022Q, ISOM 3230 Prerequisite(s): COMP 1002 OR COMP 1004 (prior to 2013-14) OR COMP 1021 OR COMP 1022P OR ISOM 3320** 
+
+------------------------------------------------------------
+
+15-17 credits (je nachdem ob Excel course oder honors design course.
+
+------------------------------------------------------------
+
+
+* #### COMP 4021 	Internet Computing 	[3 Credit(s)]  
+*Technologies and standards for World Wide Web (WWW), user interfaces and Browsers, authoring tools, Internet protocols, Internet servers, database connectivity, Robots, Search engines, server-side programming, client-side programming, security and privacy, recent advances.* **Prerequisite(s): COMP 2012 OR COMP 2012H** 
+
+
+* #### COMP 4331 	Data Mining 	[3 Credit(s)]  
+*This course will provide an introduction to concepts and techniques in the field of data mining. Materials include an introduction to data warehousing and OLAP, data preprocessing and the techniques used to explore the large quantities of data for the discovery of predictive models and knowledge. The course will include techniques such as nearest neighbor, decision tress, neural networks, Bayesian networks and Naive Bayes, rule-based methods, association analysis and clustering, as well as social networks and data mining applications in business and finance applications, and other emerging data mining subareas. Students learn the materials by attending lectures and implementing and applying different data analysis and mining techniques to large datasets throughout the semester.* **Exclusion(s): COMP 4211, ISOM 3360 Prerequisite(s): IELM 2510 OR ISOM 2500 OR LIFS 3150 OR MATH 2411 (REQUIREMENTS FULLFILL????)** 
+
+
+* #### COMP 4911 	IT Entrepreneurship 	[3 Credit(s)]
+*Basic elements of starting a new business in information technology; exploiting an "unfair" advantage; preparing a business plan; arranging financial support; accounting and legal requirements; exit strategy. Case studies of successful and failed ventures in Hong Kong and elsewhere.* **Exclusion(s): ELEC 3710 Prerequisite(s): COMP 2011 OR COMP 2012H** 
+
+----------------------- MAYBE
+
+* #### COMP 1941 	Great Ideas in Computing 	[3 Credit(s)]  
+*Digital computing technology has brought many sweeping revolutions to our society. This course introduces some great and inspiring ideas in computing in the modern world, and discusses how people use computing tools to create useful solutions for challenging and important problems we are facing. Topics include artificial intelligence, data mining, biometrics, computational complexity, cryptography, efficient search, webpage ranking, network science, computer and society, and computational photography.* **Exclusion(s): No Prerequisites stated.**
+
+* #### COMP 4901 	Special Topics in Computer Science 	[1-4 Credit(s)]  
+*Selected topics of current interest to the Department not covered by existing courses. Offerings are announced each semester. May be graded by letter, P/F, or DI/PA/F for different offerings.* **Exclusion(s): No Prerequisites stated.** 
+
+* #### COMP 4651 	Cloud Computing and Big Data Systems 	[3 Credit(s)]  
+*Big data systems, including Cloud Computing and parallel data processing frameworks, emerge as enabling technologies in managing and mining the massive amount of data across hundreds or even thousands of commodity servers in datacenters. This course exposes students to both the theory and hands-on experience of this new technology. The course will cover the following topics. (1) Basic concepts of Cloud Computing and production Cloud services; (2) MapReduce - the de facto datacenter-scale programming abstraction - and its open source implementation of Hadoop. (3) Apache Spark - a new generation parallel processing framework - and its infrastructure, programming model, cluster deployment, tuning and debugging, as well as a number of specialized data processing systems built on top of Spark. By walking through a number of hands-on labs and assignments, students are expected to gain first-hand experience programming on real world clusters in production datacenters.* **Prerequisite(s): COMP 2011 OR COMP 2012H** 
+
+
+----------------------- MAYBE 2
+
+* #### COMP 2521 	Mobile Application Development Projects 	[3 Credit(s)]  
+*This course is intended to bring together students from different disciplines to focus on coming up with innovative mobile solutions to address domain-specific problems. This will be a student-led project-based course. Teams of students will focus on developing applications to address the needs of specific application domains. Learning additional technical knowledge will be demand-driven in self-learning mode. Students will be supported by technical advisors, which include a faculty member who is the main instructor, as well as instructional assistant(s) and student helpers with technical knowledge.* **[Previous Course Code(s): COMP 4901E]** 
+
+* #### COMP 3031 	Principles of Programming Languages 	[3 Credit(s)]  
+*Comparative studies of programming languages, programming language concepts and constructs. Non-imperative programming paradigms: object-oriented, functional, logic, concurrent programming. Basic concepts of program translation and interpretation. Storage allocation and run-time organization.* **Prerequisite(s): COMP 2012 OR COMP 2012H** 
