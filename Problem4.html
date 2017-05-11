@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Implementing style tags</title>
+
+    <style media="screen">
+      .container{
+        display: inline-block;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-top: 15px;
+        width: 25%;
+      }
+      #renderBtn{
+        margin-top: 15px;
+        margin-bottom: 20px;
+        background-color: #555555;
+        border: none;
+        padding: 5px;
+        color: white;
+        display: block;
+      }
+      #renderBtn:hover{
+        background-color: #666666;
+      }
+
+      .output{
+        position:relative;
+        height: 200px;
+        top: -150px;
+      }
+
+      .note{
+        display: inline-block;
+        background-color: #F4DFC3;
+        border: solid 2px black;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>School project.</h3>
+    <div class="">
+      <div class="note container">
+        School project. <br>
+        Some restrictions on using RegExp to parse. <br>
+        Format: ^styletype=type;
+        <h4><i>Styletypes:Types</i></h4>
+          <ul>
+            <li>color</li>
+              <ul>
+                <li>hex values</li>
+              </ul>
+            <li>weight
+              <ul>
+                <li>italic</li>
+                <li>bold</li>
+                <li>clear</li>
+              </ul>
+            </li>
+          </ul>
+      </div>
+      <div class="container">
+        <h3>Parser</h3>
+        <textarea name="name" rows="8" cols="80" id="input" style="padding: 5px;width:100%;" placeholder="Hello! ^colour=222fff;how are you?
+          I will write a new text ^colour=888888; in a new colour ^weight=italic; and italic. ^weight=bold; and bold; I can also use ^ and ; without problems.
+          Then I clear it ^weight=clear; and color new. ^colour=00f2e3; with some random. "></textarea>
+        <br>
+        <button type="button" name="button" id="renderBtn">render</button>
+        <br>
+      </div>
+      <div class="container output">
+        <h3>Output</h3>
+        <output name="result" id="output"></output>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+    HTMLTag = function(startTag, endTag){
+      this.startTag = startTag;
+      this.endTag = endTag;
+    }
+
+    var currentState = {
+      htmlTags:[],
+    }
+    // result is global
+    var result;
+
+    var renderBtn = document.querySelector("#renderBtn");
+    renderBtn.onclick = function(){
+      var input = document.querySelector("#input");
+      if (input.value === ''){ var text = input.placeholder;}
+      else { var text = input.value; }
+      var output = document.querySelector("#output");
+      // result will be the parsed text colored with html tags
+      result = text;
+
+      // 1) computation of tags
+      regX = new RegExp('\\^[^;]+=[^;]+;',"mg");
+      tags = text.match(regX);
+      console.log(tags);
+      // 2) iterate over all tags
+      for (var tag of tags){
+        var reg = new RegExp('[^\\^][^=]+');
+        // 2.1) get styletype
+        var styletype = tag.match(reg)[0];
+        reg = new RegExp('=[^;]+')  //reg = new RegExp('(?<==).+;')   - javascript does not support lookbehind functionality, so we use substr
+        // 2.2) get type
+        var type = tag.match(reg);
+        type = type[0].substr(1,type[0].length-1);
+        // 3) replace tag with html
+        makeStyleTag(styletype, type);
+      }
+      // 4) append all remaining endtags
+      for (endtag in currentState.htmlTags){
+        result += currentState.htmlTags.pop().endTag;
+      }
+      console.log("final" + result);
+
+      output.innerHTML = result;
+    }
+
+    function makeStyleTag(styletype, type){
+      var reg = new RegExp('\\^'+styletype+'='+type+';',"mg");
+      console.log(styletype +" = " + type);
+      // 3.1) if color
+      if (new RegExp('colour').test(styletype)){
+        if (!new RegExp('[0-9abcdefABCDEF]{6}').test(type)){
+          throw Error("Parsing error: " + type);
+        } else {
+          result = result.replace(reg, '<span style="color: #'+type +';">');
+          currentState.htmlTags.push(new HTMLTag('<span style="color: #'+type +';">','</span>'));
+          return result;
+        }
+      // 3.2) if weight
+      } else if (new RegExp('weight').test(styletype)){
+        if (!new RegExp('italic|bold|clear').test(type)){
+          throw Error("Parsing error: " + type);
+        } else {
+          // 3.2.1) bold
+          if (new RegExp('bold').test(type)) {
+            console.log("bold : " + type);
+            result = result.replace(reg, '<b>');
+            currentState.htmlTags.push(new HTMLTag('<b>','</b>'));
+            return result;
+          // 3.2.2) italic
+          } else if (new RegExp('italic').test(type)){
+            console.log("italic : " + type);
+            result = result.replace(reg, '<i>');
+            currentState.htmlTags.push(new HTMLTag('<i>','</i>'));
+            return result;
+            // 3.2.3) clear
+          } else {
+            console.log("clear : " + type);
+              var replacement = getReplacement();
+              result = result.replace(reg, replacement);
+              return result;
+          }
+        }
+      } else {
+        throw Error("Parsing error: " + styletype)
+      }
+    }
+
+    function getReplacement(){
+      var replacement = '';
+      var prevColorTags = [];
+      // clear all tags
+      while(currentState.htmlTags.length > 0){
+        var tag = currentState.htmlTags.pop();
+        console.log(tag);
+        replacement += tag.endTag;
+        console.log(replacement);
+        // weight tags
+        if (tag.endTag === '</b>' || tag.endTag === '</i>'){
+          break;
+        // color tags need to be saved
+        } else {
+          prevColorTags.push(tag);
+        }
+      }
+      // append the color Tags again
+      for (i in prevColorTags){
+        colorTag = prevColorTags.pop();
+        console.log(colorTag);
+        currentState.htmlTags.push(colorTag);
+        replacement += colorTag.startTag;
+        console.log(replacement);
+      }
+      return replacement
+    }
+    </script>
+
+  </body>
+</html>

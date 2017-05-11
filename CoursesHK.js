@@ -237,20 +237,19 @@ function handleCreditBtnEvent(e){
 
 function parseText(text){
   var courses = [];
-  var credits = [];
 
   reg = new RegExp('\\s#{4}\\s([^*])+','gm');
   // titles
   titles = text.match(reg);
-  // credits
-  for (var s of titles){
-    credits.push(+s.match(new RegExp('[[0-9]',''))[0]);
-  }
+
   // description & prerequisites
   description = text.match(new RegExp('[*]{1}[^*\\s][^*]+','gm'));
 
+  // credits and create course
   for (var i in titles){
-    courses.push(new Course(titles[i],description[i*2],credits[i],description[(i*2)+1]));
+    var credits = +titles[i].match(new RegExp('\\[[0-9]',''))[0][1];
+    console.log(titles[i] + " : " + credits);
+    courses.push(new Course(titles[i],description[i*2],credits,description[(i*2)+1]));
   }
 
   return courses;

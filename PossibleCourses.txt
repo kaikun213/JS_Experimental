@@ -35,33 +35,66 @@ OR ----------------------
 ------------------------------------------------------------
 
 
+* #### ENGG 1200 	Engineering Team Design Experience: Airship 	[3 Credit(s)]   
+*[Previous Course Code(s): ENGG 2990D] The Engineering Team Airship Competition allows students to explore various areas of engineering in order to design and build a remote controlled airship, culminating in the final competition before the end of the term. Students will use these specific project requirements as an opportunity to explore activities in which managers/engineers of various disciplines are involved. Specifically, they will build an airship that uses helium balloons for lift, has motors and propellers for propulsion and control, and is controlled remotely using an Android device. Students in this course will be divided into design teams with a common goal: construct an airship at the end of the term. Each team will then undergo half-a-term training on airship construction, mobile phone programming and hardware communication. Team members work together to obtain the skills needed to design their airship. Finally, the teams compile an airship and contest other teams in a competition.* **No Prerequisites**
+
+
+* #### ENGG 1110 	Engineering Solutions to Grand Challenges of the 21st Century 	[3 Credit(s)]  
+*Throughout human history, engineering has driven the advance of civilization. In the past century engineering has recorded its greatest accomplishments, but for all these accomplishments the century ahead poses formidable problems sustaining civilization advancement. This course will broaden and raise student's awareness of challenges faced by coming generations such as climate change, clean water and healthcare. Students will work in small groups in a collaborative learning environment to explore in details and in multiple dimensions the key issues around selected major challenges with experts in the areas. Suggested and proposed engineering solutions based on advances in science and technology will be explored and discussed. Students will be encouraged to develop and present their own innovative engineering approaches to address these major challenges.* **No Prerequisites**
+
+
 * #### COMP 4021 	Internet Computing 	[3 Credit(s)]  
 *Technologies and standards for World Wide Web (WWW), user interfaces and Browsers, authoring tools, Internet protocols, Internet servers, database connectivity, Robots, Search engines, server-side programming, client-side programming, security and privacy, recent advances.* **Prerequisite(s): COMP 2012 OR COMP 2012H** 
 
 
 * #### COMP 4331 	Data Mining 	[3 Credit(s)]  
-*This course will provide an introduction to concepts and techniques in the field of data mining. Materials include an introduction to data warehousing and OLAP, data preprocessing and the techniques used to explore the large quantities of data for the discovery of predictive models and knowledge. The course will include techniques such as nearest neighbor, decision tress, neural networks, Bayesian networks and Naive Bayes, rule-based methods, association analysis and clustering, as well as social networks and data mining applications in business and finance applications, and other emerging data mining subareas. Students learn the materials by attending lectures and implementing and applying different data analysis and mining techniques to large datasets throughout the semester.* **Exclusion(s): COMP 4211, ISOM 3360 Prerequisite(s): IELM 2510 OR ISOM 2500 OR LIFS 3150 OR MATH 2411 (REQUIREMENTS FULLFILL????)** 
-
-
-* #### COMP 4911 	IT Entrepreneurship 	[3 Credit(s)]
-*Basic elements of starting a new business in information technology; exploiting an "unfair" advantage; preparing a business plan; arranging financial support; accounting and legal requirements; exit strategy. Case studies of successful and failed ventures in Hong Kong and elsewhere.* **Exclusion(s): ELEC 3710 Prerequisite(s): COMP 2011 OR COMP 2012H** 
+*This course will provide an introduction to concepts and techniques in the field of data mining. Materials include an introduction to data warehousing and OLAP, data preprocessing and the techniques used to explore the large quantities of data for the discovery of predictive models and knowledge. The course will include techniques such as nearest neighbor, decision tress, neural networks, Bayesian networks and Naive Bayes, rule-based methods, association analysis and clustering, as well as social networks and data mining applications in business and finance applications, and other emerging data mining subareas. Students learn the materials by attending lectures and implementing and applying different data analysis and mining techniques to large datasets throughout the semester.* **Exclusion(s): COMP 4211, ISOM 3360 Prerequisite(s): IELM 2510 OR ISOM 2500 OR LIFS 3150 OR MATH 2411 (Engineering Probability and Statistics OR Business Statistics OR Biostatistics OR Applied Statistics)** 
 
 ----------------------- MAYBE
 
 * #### COMP 1941 	Great Ideas in Computing 	[3 Credit(s)]  
 *Digital computing technology has brought many sweeping revolutions to our society. This course introduces some great and inspiring ideas in computing in the modern world, and discusses how people use computing tools to create useful solutions for challenging and important problems we are facing. Topics include artificial intelligence, data mining, biometrics, computational complexity, cryptography, efficient search, webpage ranking, network science, computer and society, and computational photography.* **Exclusion(s): No Prerequisites stated.**
 
-* #### COMP 4901 	Special Topics in Computer Science 	[1-4 Credit(s)]  
-*Selected topics of current interest to the Department not covered by existing courses. Offerings are announced each semester. May be graded by letter, P/F, or DI/PA/F for different offerings.* **Exclusion(s): No Prerequisites stated.** 
-
 * #### COMP 4651 	Cloud Computing and Big Data Systems 	[3 Credit(s)]  
-*Big data systems, including Cloud Computing and parallel data processing frameworks, emerge as enabling technologies in managing and mining the massive amount of data across hundreds or even thousands of commodity servers in datacenters. This course exposes students to both the theory and hands-on experience of this new technology. The course will cover the following topics. (1) Basic concepts of Cloud Computing and production Cloud services; (2) MapReduce - the de facto datacenter-scale programming abstraction - and its open source implementation of Hadoop. (3) Apache Spark - a new generation parallel processing framework - and its infrastructure, programming model, cluster deployment, tuning and debugging, as well as a number of specialized data processing systems built on top of Spark. By walking through a number of hands-on labs and assignments, students are expected to gain first-hand experience programming on real world clusters in production datacenters.* **Prerequisite(s): COMP 2011 OR COMP 2012H** 
+*Big data systems, including Cloud Computing and parallel data processing frameworks, emerge as enabling technologies in managing and mining the massive amount of data across hundreds or even thousands of commodity servers in datacenters. This course exposes students to both the theory and hands-on experience of this new technology. The course will cover the following topics. (1) Basic concepts of Cloud Computing and production Cloud services; (2) MapReduce - the de facto datacenter-scale programming abstraction - and its open source implementation of Hadoop. (3) Apache Spark - a new generation parallel processing framework - and its infrastructure, programming model, cluster deployment, tuning and debugging, as well as a number of specialized data processing systems built on top of Spark. By walking through a number of hands-on labs and assignments, students are expected to gain first-hand experience programming on real world clusters in production datacenters.* **Prerequisite(s): COMP 2011 OR COMP 2012H(Object oriented Programming)** 
+
+* #### COMP 4421 	Image Processing 	[3 Credit(s)]  
+*Introduction to image processing. Topics include image processing and analysis in spatial and frequency domains, image restoration and compression, image segmentation and registration, morphological image processing, representation and description, object recognition, related application areas and some other closely related topics. Some sophisticated image processing and analysis tools and state-of-the-art methods may also be introduced subject to the availability of time.* **Exclusion(s): ELEC 4130, MATH 4336 Prerequisite(s): (COMP 2011 OR COMP 2012 OR COMP 2012H) AND (MATH 2011 OR MATH 2111 OR MATH 2350 OR MATH 2351 OR MATH 2352) (Object oriented Programming AND  	Introduction to Differential Equations OR Applied Linear Algebra and Differential Equations OR  	Differential Equations**
+
+* #### MATH 2350 	Applied Linear Algebra and Differential Equations 	[3 Credit(s)]  
+*This course provides a concise introduction to linear algebra and differential equations, with exposure to the use of numerical computing software like MATLAB. Topics include systems of linear equations, matrix algebra and determinants, language of vector spaces and inner product spaces, eigenvalue and eigenvector, first order ODEs, linear second order ODEs and oscillations, and homogeneous system of first order ODEs with constant coefficients.* **Exclusion(s): MATH 2111, MATH 2121, MATH 2131, MATH 2351, MATH 2352 Prerequisite(s): A passing grade in AL Pure Mathematics / AL Applied Mathematics OR MATH 1014 OR MATH 1018 OR MATH 1020 OR MATH 1024**
+
+* #### LIFS 3240 	Introduction to Neurobiology 	[3 Credit(s)]
+*An outline of the nervous system, cell biology of neurons and glia, synaptic transmission, functional anatomy, sensory and motor system and homeostasis.* **Prerequisite(s): LIFS 2040(Cell Biology)**
+
+
+* #### LIFS 4950 	Neurochemistry 	[3 Credit(s)]  
+*Introduction to the molecular understanding of brain function, building upon the basis of biochemistry and biology. Four specific themes are covered: (i) structural neurochemistry and neural membranes; (ii) synapses, transmitters and receptors; (iii) cellular and (iv) medical and behavioral neurochemistry.* **Prerequisite(s): LIFS 2040 (Cell Biology)**
+
+* ####LIFS 2040 	Cell Biology 	[3 Credit(s)]
+*Structure and function of the cell and sub-cellular organelles; from genes to proteins; membrane and cytoskeleton; cell communication and cell signaling; cell cycle and programmed cell death.* **No Prerequirements**
 
 
 ----------------------- MAYBE 2
 
+* #### COMP 3031 	Principles of Programming Languages 	[3 Credit(s)]  
+*Comparative studies of programming languages, programming language concepts and constructs. Non-imperative programming paradigms: object-oriented, functional, logic, concurrent programming. Basic concepts of program translation and interpretation. Storage allocation and run-time organization.* **Prerequisite(s): COMP 2012 OR COMP 2012H** 
+
+
+* #### CENG 1000 	Introduction to Chemical and Biomolecular Engineering 	[3 Credit(s)]  
+*From chemistry to engineering, molecules to useful products. Physical, chemical and biochemical transformation of materials. Survey of industries related to modern chemical and biomolecular engineering. Basic principles of materials and energy balance. Strategy of molecular synthesis, process selection and design, economic and environmental considerations. Examples taken from a diverse range of products spanning realms of food, consumer products, energy, environment, and medicine. Case studies and team projects on process and product design. For engineering students only.* **Background: Level 3 or above in HKDSE 1/2x Chemistry OR in HKDSE 1x Chemistry OR CHEM 1004 OR CHEM 1010 OR CHEM 1020**
+
+* #### CENG 1600 	Biotechnology and Its Business Opportunities 	[3 Credit(s)]  
+*This course gives an introductory overview of biotechnology from both technical and business perspectives. It surveys the current landscape of medical biotechnology, discusses the significant milestones in this field, describes underlying scientific concepts, and emphasizes the impact of innovations on human health and economy. Case studies are used to illustrate the opportunities and limitations in current and future biotechnology development. In addition, experts from industry and academia are invited to give guest lectures on course-related topics.* **Background: Level 3 in HKDSE 1/2x Biology OR LIFS 1901**
+
+
+---------------------- not offered
+
 * #### COMP 2521 	Mobile Application Development Projects 	[3 Credit(s)]  
 *This course is intended to bring together students from different disciplines to focus on coming up with innovative mobile solutions to address domain-specific problems. This will be a student-led project-based course. Teams of students will focus on developing applications to address the needs of specific application domains. Learning additional technical knowledge will be demand-driven in self-learning mode. Students will be supported by technical advisors, which include a faculty member who is the main instructor, as well as instructional assistant(s) and student helpers with technical knowledge.* **[Previous Course Code(s): COMP 4901E]** 
 
-* #### COMP 3031 	Principles of Programming Languages 	[3 Credit(s)]  
-*Comparative studies of programming languages, programming language concepts and constructs. Non-imperative programming paradigms: object-oriented, functional, logic, concurrent programming. Basic concepts of program translation and interpretation. Storage allocation and run-time organization.* **Prerequisite(s): COMP 2012 OR COMP 2012H** 
+* #### COMP 4901 	Special Topics in Computer Science 	[1-4 Credit(s)]  
+*Selected topics of current interest to the Department not covered by existing courses. Offerings are announced each semester. May be graded by letter, P/F, or DI/PA/F for different offerings.* **Exclusion(s): No Prerequisites stated.** 
+
+* #### COMP 4911 	IT Entrepreneurship 	[3 Credit(s)]
+*Basic elements of starting a new business in information technology; exploiting an "unfair" advantage; preparing a business plan; arranging financial support; accounting and legal requirements; exit strategy. Case studies of successful and failed ventures in Hong Kong and elsewhere.* **Exclusion(s): ELEC 3710 Prerequisite(s): COMP 2011 OR COMP 2012H** 
